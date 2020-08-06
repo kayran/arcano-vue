@@ -1,0 +1,20 @@
+runtime: nodejs12
+
+service: arcano
+instance_class: F1
+
+handlers:
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+  expiration: "1s"
+
+- url: /(.*\.(css|js|map|bmp|gif|jpeg|jpg|png|ico|svg|woff|woff2|ttf))$
+  static_files: dist/\1
+  upload: dist/.*\.(css|js|map|bmp|gif|jpeg|jpg|png|ico|svg|woff|woff2|ttf)$
+  expiration: "30d"
+
+- url: /.*
+  static_files: dist/index.html
+  upload: dist/index.html
+  expiration: "1s"
