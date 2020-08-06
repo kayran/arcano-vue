@@ -1,5 +1,5 @@
 # Arcano
-Cartilha personalizavel para utilização em RPG de mesa.
+[Cartilha completável](https://github.com/kayran/arcano-vue/blob/master/Arcano%20(cartilha%20complet%C3%A1vel).pdf) para utilização em RPG de mesa.
 
 Projeto iniciado na disciplina de Padrões de Desenvolvimento Front-End cursada durante o MBA em Front-End na instituição IGTI
 
