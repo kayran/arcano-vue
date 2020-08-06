@@ -1,4 +1,7 @@
-# arcano
+# Arcano
+Cartilha personalizavel para utilização em RPG de mesa.
+
+Projeto iniciado na disciplina de Padrões de Desenvolvimento Front-End cursada durante o MBA em Front-End na instituição IGTI
 
 ## Project setup
 ```
